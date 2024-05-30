@@ -12,13 +12,13 @@ const Home = () => {
         </form>
     </div>
 
-    <div className=" max-xl:w-[800px] m-auto">
-        <div className="">
+    <div className=" max-xl:w-[800px] m-auto bg-gradient-to-b from-[rgba(84,3,255,0.15)] to-[rgba(105,2,153,0.15)] ">
+        <div className=" grid grid-cols-[0.5fr,2fr,1fr,1fr,1.5fr] py-[15px] px-[20px] items-center border-b border-[#3c3c3c] ">
             <p> #</p>
             <p> Coins</p>
             <p> Price</p>
-            <p> 24H Change</p>
-            <p>Market Cap</p>
+            <p className='text-center'> 24H Change</p>
+            <p className='text-right'>Market Cap</p>
         </div>
     </div>
     
